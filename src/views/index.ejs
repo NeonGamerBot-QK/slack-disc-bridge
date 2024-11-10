@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <%= include('partials/head') %>
+    <%- include('partials/head') -%>
 </head>
 <body>
-    
+    <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Web Bridge</h1>
+            <p class="py-6">
+            The one and only web bridge between your web client and the hackclub slack (note you must login w/ slack first to prevent abuse)
+            </p>
+<a href="/login">
+    <button class="btn btn-primary"> Login</button>
+</a>
+        </div>
+        </div>
+      </div>
 </body>
 </html>
