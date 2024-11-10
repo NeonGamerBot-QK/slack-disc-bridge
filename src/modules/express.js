@@ -7,6 +7,6 @@ expressApp.use(express.static("src/public"));
 expressApp.set("view engine", "ejs");
 expressApp.set("views", "src/views");
 expressApp.get("/", (req, res) => {
-  res.render("index")
+  res.render("index");
 });
 module.exports = expressApp;
