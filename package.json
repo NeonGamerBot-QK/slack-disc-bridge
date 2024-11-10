@@ -1,0 +1,11 @@
+{
+  "name": "slack-disc-bridge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "simple-json-db": "^2.0.0"
+  }
+}
